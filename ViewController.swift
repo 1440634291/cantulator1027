@@ -45,13 +45,31 @@ class ViewController: UIViewController {
         result.text = result.text! + "0"
     }
     @IBAction func buttonadd(_ sender: Any) {
-        temp = Double (result.text!)!
-        result.text = ""
+        
+        
+        if judge == 0 {
+            temp = Double (result.text!)!
+            result.text = ""
+        }
+        else {
+            temp = temp + Double(result.text!)!
+            result.text = ""
+        }
+        
         judge = 1
     }
     @IBAction func buttonminus(_ sender: Any) {
-        temp = Double (result.text!)!
-        result.text = ""
+        
+        if judge == 0 {
+            temp = Double (result.text!)!
+            result.text = ""
+        }
+        else {
+            temp = temp - Double(result.text!)!
+            result.text = ""
+        }
+        //temp = Double (result.text!)!
+        //result.text = ""
         judge = 2
     }
     @IBAction func buttonride(_ sender: Any) {
@@ -67,6 +85,7 @@ class ViewController: UIViewController {
     @IBAction func buttonAC(_ sender: Any) {
         result.text = ""
         temp = 0
+        judge = 0
     }
     @IBAction func buttoncoid(_ sender: Any) {
         result.text = result.text! + "."
@@ -112,4 +131,3 @@ class ViewController: UIViewController {
 
 
 }
-

@@ -151,7 +151,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Afv-Sv-bq2">
-                                <rect key="frame" x="82" y="478" width="40" height="48"/>
+                                <rect key="frame" x="82" y="469" width="40" height="48"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                 <state key="normal" title="AC"/>
@@ -168,22 +168,22 @@
                                     <action selector="buttoncoid:" destination="BYZ-38-t0r" eventType="touchUpInside" id="hpJ-k0-g2B"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Lbn-Up-S0w">
-                                <rect key="frame" x="254" y="478" width="30" height="48"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
-                                <state key="normal" title="←"/>
-                                <connections>
-                                    <action selector="buttondelete:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ZvC-4V-i4f"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="leL-YR-XGz">
-                                <rect key="frame" x="172" y="478" width="30" height="48"/>
+                                <rect key="frame" x="172" y="469" width="30" height="48"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                 <state key="normal" title="="/>
                                 <connections>
                                     <action selector="buttonresult:" destination="BYZ-38-t0r" eventType="touchUpInside" id="BTd-ou-hEE"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Lbn-Up-S0w">
+                                <rect key="frame" x="254" y="469" width="30" height="48"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <state key="normal" title="←"/>
+                                <connections>
+                                    <action selector="buttondelete:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ZvC-4V-i4f"/>
                                 </connections>
                             </button>
                         </subviews>
